@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { AnimatePresence } from 'motion/react';
+
 import { ScrollProgress } from './components/ScrollProgress';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -10,45 +12,64 @@ import { Stack } from './components/Stack';
 import { Process } from './components/Process';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { Preloader } from './components/Preloader';
 
 export default function App() {
+  const [loading, setLoading] = useState(true);
+
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white flex flex-col selection:bg-white selection:text-black relative overflow-x-clip">
-      {/* Scroll Progress Indicator */}
-      <ScrollProgress />
+    <>
+      {/* Preloader */}
+      <AnimatePresence mode="wait">
+        {loading && (
+          <Preloader
+            key="preloader"
+            onComplete={() => setLoading(false)}
+          />
+        )}
+      </AnimatePresence>
 
-      {/* Navigation */}
-      <Navbar />
+      {/* Portfolio */}
+      <div className="min-h-screen bg-[#0a0a0a] text-white flex flex-col selection:bg-white selection:text-black relative overflow-x-clip">
+        
+        {/* Scroll Progress Indicator */}
+        <ScrollProgress />
 
-      {/* Main Content Sections */}
-      <main className="flex-1 w-full">
-        {/* 01. Hero */}
-        <Hero />
+        {/* Navigation */}
+        <Navbar />
 
-        {/* 02. Intro / Capabilities */}
-        <Intro />
+        {/* Main Content */}
+        <main className="flex-1 w-full">
+          
+          {/* 01. Hero */}
+          <Hero />
 
-        {/* 03. Selected Work */}
-        <SelectedWork />
+          {/* 02. Intro / Capabilities */}
+          <Intro />
 
-        {/* 04. Infinite Marquee */}
-        <Marquee />
+          {/* 03. Selected Work */}
+          <SelectedWork />
 
-        {/* 05. About */}
-        <About />
+          {/* 04. Infinite Marquee */}
+          <Marquee />
 
-        {/* 06. Stack */}
-        <Stack />
+          {/* 05. About */}
+          <About />
 
-        {/* 07. Process / How I Work */}
-        <Process />
+          {/* 06. Stack */}
+          <Stack />
 
-        {/* 08. Contact */}
-        <Contact />
-      </main>
+          {/* 07. Process / How I Work */}
+          <Process />
 
-      {/* Footer */}
-      <Footer />
-    </div>
+          {/* 08. Contact */}
+          <Contact />
+
+        </main>
+
+        {/* Footer */}
+        <Footer />
+      </div>
+    </>
   );
 }
