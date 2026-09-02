@@ -79,7 +79,7 @@ export const Hero: React.FC = () => {
           </div>
 
           <div className="text-[10px] min-[360px]:text-xs font-mono text-[#8e8e88] uppercase tracking-wider">
-            LAS PAREJAS, SANTA FE · REMOTO
+            LAS PAREJAS, Sta FE 
           </div>
         </motion.div>
 
