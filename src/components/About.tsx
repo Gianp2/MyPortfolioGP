@@ -107,7 +107,7 @@ export const About: React.FC = () => {
             </div>
 
             <div className="flex items-center text-[10px] min-[360px]:text-[11px] sm:text-xs font-mono text-[#8e8e88]">
-              <span className="text-[#d4d4ce] uppercase tracking-wider">LAS PAREJAS, SANTA FE · REMOTO</span>
+              <span className="text-[#d4d4ce] uppercase tracking-wider">LAS PAREJAS, Sta. FE</span>
             </div>
           </div>
         </FadeInSection>
