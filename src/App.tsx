@@ -9,7 +9,6 @@ import { SelectedWork } from './components/SelectedWork';
 import { Marquee } from './components/Marquee';
 import { About } from './components/About';
 import { Stack } from './components/Stack';
-import { Process } from './components/Process';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Preloader } from './components/Preloader';
@@ -59,10 +58,7 @@ export default function App() {
           {/* 06. Stack */}
           <Stack />
 
-          {/* 07. Process / How I Work */}
-          <Process />
-
-          {/* 08. Contact */}
+          {/* 07. Contact */}
           <Contact />
 
         </main>
