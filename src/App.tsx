@@ -30,7 +30,7 @@ export default function App() {
       </AnimatePresence>
 
       {/* Portfolio */}
-      <div className="min-h-screen bg-[#0a0a0a] text-white flex flex-col selection:bg-white selection:text-black relative overflow-x-clip">
+      <div className="min-h-screen bg-canvas text-white flex flex-col selection:bg-white selection:text-black relative overflow-x-clip">
         
         {/* Scroll Progress Indicator */}
         <ScrollProgress />
