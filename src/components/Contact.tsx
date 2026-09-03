@@ -28,7 +28,7 @@ export const Contact: React.FC = () => {
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2.5 sm:gap-6 pb-4 sm:pb-8 border-b border-[#222220]">
             <div className="space-y-1 sm:space-y-2">
               <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-0.5 sm:py-1 rounded-md bg-[#161615] border border-[#2a2a27] text-[10px] min-[360px]:text-[11px] font-mono uppercase tracking-widest text-[#a1a19a]">
-                <span className="text-white font-bold">06</span>
+                <span className="text-white font-bold">05</span>
                 <span className="text-[#555550]">/</span>
                 <span>CONTACTO DIRECTO</span>
               </div>
