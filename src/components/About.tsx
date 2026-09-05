@@ -4,9 +4,7 @@ import { siteConfig } from '../data/site';
 import { FadeInSection } from './FadeInSection';
 import {
   Terminal,
-  Code2,
   FileCode,
-  Target,
   Compass,
 } from 'lucide-react';
 
@@ -171,7 +169,6 @@ export const About: React.FC = () => {
             <div className="flex items-center font-mono text-[10px] text-[#8e8e88] min-[360px]:text-[11px] sm:text-xs">
 
               <span className="uppercase tracking-wider text-[#d4d4ce]">
-                LAS PAREJAS, Sta. FE
               </span>
 
             </div>
@@ -476,9 +473,7 @@ export const About: React.FC = () => {
 
               <span className="flex items-center gap-1.5 font-mono text-[10px] font-semibold uppercase tracking-widest text-emerald-400 sm:text-xs">
 
-                <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-
-                PROPUESTA DE VALOR
+                
 
               </span>
 
@@ -507,57 +502,12 @@ export const About: React.FC = () => {
 
             </p>
 
-            {/* ===============================================
-                PILLAR CARDS
-            ================================================ */}
-            <div className="grid grid-cols-1 gap-2.5 pt-0.5 sm:grid-cols-2 sm:gap-3">
-
-              {/* Functional Analysis */}
-              <div className="space-y-1.5 rounded-xl border border-white/10 bg-[#141413]/90 p-3 backdrop-blur-md transition-colors hover:border-emerald-500/40 sm:p-3.5">
-
-                <div className="flex items-center gap-2 text-emerald-400">
-
-                  <Target className="h-3.5 w-3.5" />
-
-                  <span className="font-mono text-[10px] font-bold uppercase tracking-wider sm:text-xs">
-                    ANÁLISIS FUNCIONAL
-                  </span>
-
-                </div>
-
-                <p className="text-[11px] leading-relaxed text-[#a1a19a] sm:text-xs">
-                  Relevamiento de requerimientos, modelado de procesos y especificación funcional orientada a soluciones reales.
-                </p>
-
-              </div>
-
-              {/* Software Development */}
-              <div className="space-y-1.5 rounded-xl border border-white/10 bg-[#141413]/90 p-3 backdrop-blur-md transition-colors hover:border-emerald-500/40 sm:p-3.5">
-
-                <div className="flex items-center gap-2 text-emerald-400">
-
-                  <Code2 className="h-3.5 w-3.5" />
-
-                  <span className="font-mono text-[10px] font-bold uppercase tracking-wider sm:text-xs">
-                    DESARROLLO DE SOFTWARE
-                  </span>
-
-                </div>
-
-                <p className="text-[11px] leading-relaxed text-[#a1a19a] sm:text-xs">
-                  Construcción de aplicaciones eficientes, código modular y arquitectura escalable con buenas prácticas.
-                </p>
-
-              </div>
-
-            </div>
-
           </FadeInSection>
 
         </div>
 
       </div>
+
     </section>
   );
 };
-

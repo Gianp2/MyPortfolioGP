@@ -71,16 +71,6 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           className="flex items-center justify-between text-xs font-mono text-[#8e8e88] pb-4 sm:pb-6 border-b border-[#242422]/80 backdrop-blur-xs w-full"
         >
-          <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span className="uppercase tracking-widest text-[10px] min-[360px]:text-xs text-[#d4d4ce] whitespace-nowrap font-medium">
-              DISPONIBLE PARA PROYECTOS
-            </span>
-          </div>
-
-          <div className="text-[10px] min-[360px]:text-xs font-mono text-[#8e8e88] uppercase tracking-wider">
-            LAS PAREJAS, Sta FE 
-          </div>
         </motion.div>
 
         {/* Main Hero Visual Core */}
