@@ -1,110 +1,252 @@
-import { SiteConfig } from '../types';
+import { SiteConfig } from "../types";
 
 export const siteConfig: SiteConfig = {
+  // ============================================================
+  // IDENTIDAD
+  // ============================================================
+
   name: "Gianluca Pasquinelli",
+
   shortName: "Gianluca",
-  title: "Analista Funcional de Sistemas Informáticos · Desarrollador de Software",
-  tagline: "Diseño interfaces y aplicaciones que fusionan creatividad, usabilidad y eficiencia técnica para resolver desafíos reales.",
-  
-  introHeading: "TRANSFORMO NECESIDADES REALES EN PRODUCTOS DIGITALES.",
-  introDescription: "Desarrollo aplicaciones y soluciones de software combinando análisis funcional, interfaces intuitivas y código escalable.",
-  
+
+  title:
+    "Analista Funcional de Sistemas Informáticos · Desarrollador de Software",
+
+  tagline:
+    "Transformo necesidades reales en soluciones digitales claras, funcionales y eficientes.",
+
+  // ============================================================
+  // HERO
+  // ============================================================
+
+  introHeading:
+    "TRANSFORMO NECESIDADES REALES EN PRODUCTOS DIGITALES.",
+
+  introDescription:
+    "Analizo problemas, diseño soluciones y desarrollo aplicaciones combinando funcionalidad, experiencia de usuario y tecnología.",
+
+  // ============================================================
+  // SOBRE MÍ
+  // ============================================================
+
   about: {
     heading: "SOBRE MÍ",
+
     paragraphs: [
-      "Soy Analista Funcional de Sistemas Informáticos y Desarrollador de Software, enfocado en la responsabilidad, colaboración y resolución de problemas.",
-      "Me adapto rápidamente a diferentes entornos y disfruto aplicar nuevas tecnologías para crear soluciones eficientes y de calidad."
+      "Soy Analista Funcional de Sistemas Informáticos y Desarrollador de Software. Me especializo en comprender problemas reales y transformarlos en soluciones digitales concretas.",
+
+      "Combino análisis funcional, diseño de interfaces y desarrollo para crear aplicaciones intuitivas, eficientes y adaptadas a las necesidades de cada proyecto.",
+
+      "Me interesa especialmente construir productos que no solo funcionen, sino que también sean claros, escalables y agradables de utilizar.",
+
+      "Mantengo una mentalidad de aprendizaje continuo y me adapto rápidamente a nuevas tecnologías, herramientas y desafíos."
     ]
   },
-  
+
+  // ============================================================
+  // ÁREAS DE ESPECIALIZACIÓN
+  // ============================================================
+
   focus: [
     {
       number: "01",
+
       title: "ANÁLISIS FUNCIONAL",
-      description: "Relevamiento de requerimientos, modelado de procesos y especificación técnica de sistemas."
+
+      description:
+        "Relevamiento de requerimientos, análisis de procesos, reglas de negocio y definición de soluciones."
     },
+
     {
       number: "02",
-      title: "DESARROLLO DE SOFTWARE",
-      description: "Aplicaciones y soluciones web modernas, rápidas y totalmente responsive con React y TypeScript."
+
+      title: "DESARROLLO",
+
+      description:
+        "Aplicaciones web modernas, rápidas y responsive utilizando React, TypeScript y tecnologías actuales."
     },
+
     {
       number: "03",
-      title: "DISEÑO UI & UX",
-      description: "Interfaces claras, usables y centradas en resolver desafíos reales de usuarios."
+
+      title: "UI & UX",
+
+      description:
+        "Interfaces simples, intuitivas y funcionales pensadas desde las necesidades reales del usuario."
     },
+
     {
       number: "04",
+
       title: "ADAPTABILIDAD",
-      description: "Formación continua, adopción de nuevas herramientas y trabajo colaborativo."
+
+      description:
+        "Aprendizaje continuo, incorporación de nuevas tecnologías y capacidad para adaptarme a distintos proyectos."
     }
   ],
-  
+
+  // ============================================================
+  // TECNOLOGÍAS
+  // ============================================================
+
   stackGroups: [
     {
       category: "Frontend",
-      items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Bootstrap"]
+
+      items: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Bootstrap"
+      ]
     },
+
     {
       category: "Backend",
-      items: ["PHP", "Python"]
+
+      items: [
+        "PHP",
+        "Python"
+      ]
     },
+
     {
       category: "Bases de Datos",
-      items: ["MySQL", "MongoDB", "SQLite", "Firebase", "Supabase"]
+
+      items: [
+        "MySQL",
+        "MongoDB",
+        "SQLite",
+        "Firebase",
+        "Supabase"
+      ]
     },
+
     {
       category: "Herramientas",
-      items: ["Git", "GitHub", "Vercel", "VSCode"]
+
+      items: [
+        "Git",
+        "GitHub",
+        "Vercel",
+        "VS Code"
+      ]
     }
   ],
-  
+
+  // ============================================================
+  // PROCESO DE TRABAJO
+  // ============================================================
+
   process: [
     {
       number: "01",
+
       title: "ANALIZAR",
-      description: "Comprendo el problema, las reglas de negocio y los usuarios antes de escribir código."
+
+      description:
+        "Entiendo el problema, los objetivos, los usuarios y las reglas de negocio."
     },
+
     {
       number: "02",
-      title: "CONSTRUIR",
-      description: "Desarrollo con arquitectura modular, tipado estricto y buenas prácticas."
+
+      title: "DISEÑAR",
+
+      description:
+        "Defino la estructura, la experiencia de usuario y la solución adecuada."
     },
+
     {
       number: "03",
+
+      title: "CONSTRUIR",
+
+      description:
+        "Desarrollo con código organizado, componentes reutilizables y buenas prácticas."
+    },
+
+    {
+      number: "04",
+
       title: "OPTIMIZAR",
-      description: "Pulo la velocidad, interacción y adaptabilidad para asegurar una experiencia fluida."
+
+      description:
+        "Mejoro rendimiento, responsive design, accesibilidad e interacción."
     }
   ],
-  
+
+  // ============================================================
+  // INTERESES
+  // ============================================================
+
   interests: {
     heading: "INTERESES",
-    paragraphs: [],
-    tags: ["Desarrollo de Software", "Nuevas Tecnologías", "Aprendizaje Continuo", "Análisis de Sistemas"]
+
+    paragraphs: [
+      "Me interesa crear soluciones digitales que tengan una aplicación práctica y resuelvan problemas concretos.",
+
+      "También disfruto explorar nuevas tecnologías, automatizar procesos y encontrar formas de hacer que las aplicaciones sean más simples y eficientes."
+    ],
+
+    tags: [
+      "Desarrollo de Software",
+      "Análisis Funcional",
+      "UI & UX",
+      "Nuevas Tecnologías",
+      "Automatización",
+      "Aprendizaje Continuo",
+      "Análisis de Sistemas",
+      "Soluciones Digitales"
+    ]
   },
-  
+
+  // ============================================================
+  // MISIÓN
+  // ============================================================
+
   goal: {
     heading: "MISIÓN",
-    description: "Diseñar interfaces y aplicaciones que fusionen creatividad, usabilidad y eficiencia técnica para resolver desafíos reales."
+
+    description:
+      "Crear soluciones digitales que conecten análisis, diseño y tecnología para transformar problemas reales en experiencias simples, eficientes y útiles."
   },
-  
+
+  // ============================================================
+  // CONTACTO
+  // ============================================================
+
   contact: {
     headingLine1: "¿TENÉS UN PROYECTO",
+
     headingLine2: "EN MENTE?",
-    subheading: "Disponible para nuevas oportunidades, desarrollo de proyectos y colaboraciones.",
+
+    subheading:
+      "Disponible para nuevas oportunidades, proyectos de desarrollo y colaboraciones.",
+
     ctaButton: "CONTACTAR"
   },
-  
+
+  // ============================================================
+  // REDES Y CONTACTO
+  // ============================================================
+
   social: {
     email: "gianpasquinelli24@gmail.com",
+
     github: "https://github.com/Gianp2",
     githubUser: "Gianp2",
+
     linkedin: "https://www.linkedin.com/in/gian-pasquinelli/",
     linkedinUser: "in/gian-pasquinelli",
+
     whatsapp: "https://wa.me/5493471417071",
     whatsappUser: "+54 9 3471 417071",
+
     instagram: "https://instagram.com/gian_pasquinelli",
     instagramUser: "@gian_pasquinelli"
   }
 };
-
