@@ -31,7 +31,7 @@ export const SelectedWork: React.FC = () => {
               </div>
 
               <h2 className="text-2xl min-[360px]:text-3xl sm:text-5xl md:text-6xl font-display font-bold text-white tracking-tight uppercase">
-                PROYECTOS
+                ALGUNOS DE MIS PROYECTOS
               </h2>
 
             </div>

@@ -1,6 +1,6 @@
 import { Project } from '../types';
 import controlExtrasImg from '../assets/images/controlext-rrhh-img.png';
-import bebidasImg from '../assets/images/bebidas.png';
+import tataninoImg from "../assets/images/tatanino.png";
 import extraTimeImg from '../assets/images/ExtraTimeimg.png';
 import puntoBocadoImg from '../assets/images/pbocadoimg.png';
 import perrosGatosImg from '../assets/images/perrosygatosimg.png';
@@ -23,24 +23,24 @@ export const projects: Project[] = [
     ],
     accentColor: "#2563eb"
   },
-    {
-    id: "bebidas-express",
-    number: "02",
-    title: "Bebidas Express",
-    category: "E-commerce & Gestión de Pedidos",
-    role: "Arquitectura & Full-Stack",
-    impact: "Digitalización del proceso de venta y gestión de pedidos.",
-    description: "Plataforma web de e-commerce para la venta de bebidas, con catálogo de productos, carrito de compras, gestión de stock y pedidos directos por WhatsApp.",
-    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Firebase", "Cloudinary"],
-    url: "https://bebidas-liard.vercel.app/",
-    image: bebidasImg,
-    highlights: [
-      "Catálogo de bebidas organizado por categorías con precios y disponibilidad",
-      "Carrito de compras con cálculo automático del total y generación de pedidos por WhatsApp",
-      "Panel administrativo para gestionar productos, precios y stock"
-    ],
-    accentColor: "#2563eb"
-  },
+{
+  id: "tatanino",
+  number: "02",
+  title: "Tatanino – Tiempo de Jugar",
+  category: "Plataforma de Gestión Educativa",
+  role: "Arquitectura & Full-Stack",
+  impact: "Digitalización integral de la gestión de una guardería infantil.",
+  description: "Plataforma web para administrar alumnos, asistencia, actividades, comunicaciones y pagos, con paneles personalizados para administradores, docentes y familias.",
+  technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Firebase", "Cloudinary"],
+  url: "https://guarderia-five.vercel.app/",
+  image: tataninoImg,
+  highlights: [
+    "Paneles personalizados con autenticación y permisos según el rol",
+    "Gestión de alumnos, salas, asistencia, actividades y seguimiento infantil",
+    "Portal para familias con novedades, fotografías, cuotas y comprobantes"
+  ],
+  accentColor: "#2563eb"
+},
   {
     id: "extratime",
     number: "03",
